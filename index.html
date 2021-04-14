@@ -9,20 +9,41 @@
       type="image/png"
       href="https://images.unsplash.com/photo-1611262588019-db6cc2032da3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Banana Speak | Translator</title>
   </head>
   <body>
-    <textarea name="textarea" placeholder="Enter Text" id="userinput" cols="40" rows="5"></textarea>
-    <br>
-    <button id="clickme" class="btn">Translate</button>
-<div id="userOutput">
-    <div>
-        Your Text will be displayed Here 👇
+    <section>
+      <header class="header-style">
+        <h2>Banana Translator</h2>
+      </header>
+    </section>
+    <section class="container datasection">
+      <textarea
+        name="textarea"
+        placeholder="Enter Text"
+        id="userinput"
+        cols="40"
+        rows="5"
+      ></textarea>
+      <br />
+      <button id="clickme" class="btn">Translate</button>
+      <br />
+      
+        <div>Your Text will be displayed Here 👇</div>
+
+        <textarea
+          name="textarea"
+          placeholder="Enter Text"
+          id="output"
+          cols="40"
+          rows="5"
+        ></textarea>
+    </section>
+    <div class="footer">
+      <p>about<br>
+        Are you a fan of minions? Did you know that the gibberish they say is an actual language. <br> the translator to convert your text from English to Minion speak or Banana language.</p>
     </div>
-    <div id="output">
-        
-    </div>
-</div>
     <script src="app.js"></script>
   </body>
 </html>
