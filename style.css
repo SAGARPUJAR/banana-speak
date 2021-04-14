@@ -6,16 +6,13 @@
 .header-style
 {
     display: flex;
+    padding: 30px;
     justify-content: center;
     background-color: #F2C94C;
 }
 
 .container{
-    padding: 200px;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
+    padding: 20px;
 }
 
 .btn
@@ -23,6 +20,7 @@
     background-color: #F2C94C;
     border: none;padding: 20px;
     cursor: pointer;
+    width: 100%;
     border: 1px solid olive;
     border-radius: 6px;
 }
@@ -37,4 +35,7 @@
  }
  textarea{
      padding: 20px;
+     width: 100%;
+     padding-bottom: 70px;
  }
+
